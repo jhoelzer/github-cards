@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <button className="button" onClick={this.handleClickButton}>Click Here</button>
-        <div>
+        <div id="card">
 
           {this.state.active ?
 
@@ -36,11 +36,11 @@ class App extends Component {
               <h3>Name: {this.state.user.name}</h3>
               <h3>Username: {this.state.user.login}</h3>
               <h3>Portfolio URL: 
-                <a href={this.state.user.blog} target="_blank">{this.state.user.blog}</a>
+                <a href={this.state.user.blog} target="_blank" id="url"> {this.state.user.blog}</a>
               </h3>
               <h3>Location: {this.state.user.location}</h3>
             </div>
-            
+
           : null}
 
         </div>
