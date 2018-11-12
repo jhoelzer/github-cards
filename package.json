@@ -2,7 +2,9 @@
   "name": "github-cards",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jhoelzer.github.io/github-cards/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1"
